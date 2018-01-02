@@ -1,0 +1,67 @@
+{
+  "name": "sttapi",
+  "version": "0.0.1",
+  "description": "GraphQL Service for Star Trek Timelines",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "postbuild": "node_modules/.bin/copyfiles -f lib/*.d.ts dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jheinnic/jch-stt-api.git"
+  },
+  "keywords": [],
+  "author": "jheinnic",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/IAmPicard/STTApi/issues"
+  },
+  "homepage": "https://github.com/IAmPicard/STTApi#readme",
+  "devDependencies": {
+    "@types/node": "^8.5.2",
+    "@types/superagent": "^3.5.6",
+    "apollo-codegen": "^0.18.2 || ^1.0.0",
+    "codelyzer": "4.0.2",
+    "copyfiles": "^1.2.0",
+    "jasmine": "^2.8.0",
+    "jasmine-marbles": "^0.2.0 || ^1.0.0",
+    "tslint": "^5.8.0",
+    "tslint-config-standard": "^7.0.0",
+    "typescript": "~2.5.3"
+  },
+  "dependencies": {
+    "ab-parser": "file:./AssetParser",
+    "apollo-link": "^1.0.0",
+    "apollo-server-hapi": "^1.3.2",
+    "casual": "^1.5.19",
+    "chance": "^1.0.13",
+    "class-transformer": "^0.1.8",
+    "class-validator": "^0.7.2",
+    "fluent-interface-builder": "^2.0.1",
+    "graphql": "^0.11.7",
+    "graphql-tag": "^2.5.0",
+    "graphql-tools": "^2.14.1",
+    "graphql-utilities": "^0.0.14",
+    "hapi": "^16.6.2",
+    "immutable": "^3.8.1",
+    "inversify": "^4.9.0",
+    "keycloak-js": "^3.4.2",
+    "lodash": "^4.17.4",
+    "lru_map": "^0.3.3",
+    "neo4j": "^2.0.0-RC2",
+    "neo4j-graphql-js": "^0.1.8",
+    "reflect-helper": "^1.1.0",
+    "reflect-metadata": "^0.1.10",
+    "rxjs": "^5.5.6",
+    "subscriptions-transport-ws": "^0.9.1",
+    "superagent": "^3.8.2",
+    "tslib": "^1.7.1",
+    "uuid": "^3.1.0"
+  },
+  "cut": {
+    "url-search-params-polyfill": "^2.0.1"
+  }
+}

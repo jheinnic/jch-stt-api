@@ -1,0 +1,66 @@
+type User {
+    id: ID!
+}
+
+type RenderScale {
+    id: ID!
+    pixelWidth: Int
+    pixelHeight: Int
+    shape: String
+}
+
+type PointMap {
+    scale: RenderScale @relation(name: "MAPPED_BY", direction: "IN")
+    paintX: Int
+    paintY: Int
+    modelX: Double
+    modelY: Double
+}
+
+type Term {
+    value: String!
+    usedIn: [Dictionary] @relation(name: "INCLUDES", direction: "IN")
+}
+
+type Dictionary {
+    id: ID!
+    owner: User @relation(name: "OWNED_BY", direction: "OUT")
+    name: String
+    terms: Term @relation(name: "INCLUDES", direction: "OUT")
+}
+
+type Gallery {
+    id: ID!
+    owner: User @relation(name: "OWNED_BY", direction: "OUT")
+    name: String
+    renderScale: RenderScale @relation(name: "RENDERS_AT", direction: "OUT")
+    prefixTerms: Dictionary @relation(name: "GETS_PREFIXES_FROM", direction: "OUT")
+    suffixTerms: Dictionary @relation(name: "GETS_SUFFIXES_FROM", direction: "OUT")
+}
+
+type PaintedPhrase {
+    id: ID!
+    owner: Gallery @relation(name: "OWNED_BY", direction: "OUT")
+    prefix: Term @relation(name: "FROM_PREFIX", direction: "OUT")
+    suffix: Term @relation(name: "FROM_SUFFIX", direction: "OUT")
+    atScale: RenderScale @cypher(statement: "WITH {this} as this MATCH (this)-[:OWNED_BY]->()-[:RENDERS_AT]->(scale) RETURN scale")
+    filePath: String
+}
+
+schema {
+   mutation: MutationType
+   query: QueryType
+}
+
+type MutationType {
+   newUser(id:ID!) : String @cypher(statement:"CREATE (:User {id:{id}})")
+   newSquareScale(id:ID!, pixelLength:Int) : RenderScale @cypher(statement:"MERGE (s:RenderScale {id:{id}}) ON CREATE SET s += {pixelWidth:{pixelLength}, pixelHeight:{pixelLength}} RETURN s")
+   newScale(id:ID!, pixelWidth:Int, pixelHeight:Int, fitOrFill:String) : RenderScale @cypher(statement:"MERGE (s:RenderScale {id:{id}}) ON CREATE SET s += {pixelWidth:{pixelWidth}, pixelHeight:{pixelHeight}, shape:{fitOrFill}} RETURN s")
+   newDictionary(id:ID!, owner:User, name: String) : Dictionary @cypher(statement:"MERGE (d:Dictionary {id:{id}}) ON CREATE SET d += {name:{name}, owner:{owner}} RETURN d")
+   newGallery(id:ID!, owner:User, name: String) : Gallery @cypher(statement:"MERGE (g:Gallery {id:{id}}) ON CREATE SET g += {name:{name}, owner:{owner}} RETURN g")
+}
+
+type QueryType {
+   userByUserId(userId:ID!) : User @cypher(statement:"MATCH (u:User {id:{userId}}) RETURN u")
+   dictionaryCount(u:User) : Int @cypher(statement:"MATCH (d:Dictionary)-[:OWNED_BY]->(u) RETURN count(d)")
+}

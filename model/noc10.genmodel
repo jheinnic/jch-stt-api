@@ -1,0 +1,1072 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/stt/src" modelPluginID="stt" modelName="Noc10"
+    rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container" importerID="org.eclipse.emf.importer.ecore"
+    complianceLevel="5.0" copyrightFields="false" operationReflection="true" importOrganizing="true">
+  <foreignModel>file:/Users/jheinnic/Git/graphql-emf/no.hal.graphql.emf.parent/noc10.ecore</foreignModel>
+  <genPackages prefix="Discovered" disposableProviderFactory="true" loadInitialization="true"
+      literalsInterface="false" ecorePackage="noc10.ecore#/">
+    <genClasses ecoreClass="noc10.ecore#//Image_2">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Image_2/file"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Dispute_historie">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Dispute_historie/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Dispute_historie/symbol"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Dispute_historie/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Dispute_historie/episode"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Dispute_historie/marker"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Dispute_historie/completed"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Dispute_historie/mission_ids"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Dispute_historie/stars_earned"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Dispute_historie/total_stars"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Dispute_historie/exclude_from_timeline"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Dispute_historie/faction_id"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Command_skill">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Command_skill/core"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Command_skill/range_min"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Command_skill/range_max"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Reward_day">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Reward_day/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Reward_day/symbol"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Reward_day/rewards"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Reward_day/double_at_vip"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Store">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Store/SOCIAL.FRIEND"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Store/GAME.REWARD"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Store/SOCIAL.GIFT"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Store/SYSTEM"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Store/SOCIAL.GUILD.INFO"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Store/PVP.PVPREWARD"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Store/SOCIAL.GUILD.INVITE"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Commerce">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Commerce/layaways"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Crew_avatar">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew_avatar/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew_avatar/symbol"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew_avatar/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew_avatar/short_name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew_avatar/max_rarity"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Crew_avatar/icon"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Crew_avatar/portrait"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Crew_avatar/full_body"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew_avatar/default_avatar"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew_avatar/hide_from_cryo"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Image">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Image/file"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Image/url"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Image/version"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Daily_activitie">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Daily_activitie/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Daily_activitie/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Daily_activitie/description"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Daily_activitie/icon"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Daily_activitie/area"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Daily_activitie/weight"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Daily_activitie/category"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Daily_activitie/lifetime"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Daily_activitie/rewards"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Daily_activitie/goal"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Daily_activitie/min_level"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Daily_activitie/rarity"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Daily_activitie/progress"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Daily_activitie/status"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//History">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//History/what"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//History/reason"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//History/when"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Master_limit">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Master_limit/chance"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Master_limit/period_minutes"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Item">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Item/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Item/type"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Item/symbol"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Item/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Item/flavor"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Item/archetype_id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Item/quantity"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Item/icon"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Item/rarity"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Item/expires_in"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Item/short_name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Item/bonuses"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Item/time_modifier"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Item/cr_modifier"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Item/reward_modifier"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Item/crafting_bonuses"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Goal">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Goal/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Goal/faction_id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Goal/flavor"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Goal/rewards"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Goal/winner_rewards"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Goal/victory_points"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Goal/claimed_reward_points"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Event_winner_reward">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Event_winner_reward/bonuses"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Event_winner_reward/time_modifier"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Event_winner_reward/cr_modifier"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Event_winner_reward/reward_modifier"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Event_winner_reward/rewards"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Event_winner_reward/expires_in"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Fleet_activitie">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Fleet_activitie/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Fleet_activitie/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Fleet_activitie/description"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Fleet_activitie/icon"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Fleet_activitie/area"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Fleet_activitie/category"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Fleet_activitie/total_points"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Fleet_activitie/current_points"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Fleet_activitie/milestones"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Fleet_activitie/claims_available_count"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Engineering_skill">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Engineering_skill/core"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Engineering_skill/range_min"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Engineering_skill/range_max"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Reputation_item_icon">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Reputation_item_icon/file"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Tutorial">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Tutorial/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Tutorial/symbol"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Tutorial/state"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Fleet">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Fleet/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Fleet/nicon_index"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Fleet/nleader_player_dbid"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Fleet/nmin_level"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Fleet/nstarbase_level"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Fleet/slabel"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Fleet/rank"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Fleet/epoch_time"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Stt_rewarded_dabo">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Stt_rewarded_dabo/chance"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Stt_rewarded_dabo/period_minutes"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Daily_rewards_state">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Daily_rewards_state/seconds_until_next_reward"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Daily_rewards_state/today_reward_day_index"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Daily_rewards_state/reward_days"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Representative_full_body">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Representative_full_body/file"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Equipment_slot">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Equipment_slot/level"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Equipment_slot/archetype"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Episode_portrait">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Episode_portrait/file"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Points_icon">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Points_icon/file"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Stt_rewarded_credit">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Stt_rewarded_credit/chance"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Stt_rewarded_credit/period_minutes"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Video_ad_campaign_limit">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Video_ad_campaign_limit/master_limit"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Video_ad_campaign_limit/stt_rewarded_scan"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Video_ad_campaign_limit/stt_rewarded_warp"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Video_ad_campaign_limit/stt_rewarded_shuttle"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Video_ad_campaign_limit/stt_rewarded_credits"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Video_ad_campaign_limit/stt_rewarded_dabo"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Video_ad_campaign_limit/stt_rewarded_chroniton_boost"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Voyage_description">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Voyage_description/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Voyage_description/symbol"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Voyage_description/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Voyage_description/description"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Voyage_description/icon"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Voyage_description/skills"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Voyage_description/ship_trait"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Voyage_description/crew_slots"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Ship_battle">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Ship_battle/accuracy"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Ship_battle/evasion"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Ship_battle/crit_chance"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Ship_battle/crit_bonus"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Winner_reward">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Winner_reward/bonuses"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Winner_reward/time_modifier"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Winner_reward/cr_modifier"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Winner_reward/reward_modifier"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Winner_reward/rewards"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Stt_rewarded_scan">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Stt_rewarded_scan/chance"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Stt_rewarded_scan/period_minutes"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Threshold_reward">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Threshold_reward/points"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Threshold_reward/rewards"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Slot">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Slot/level"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Slot/required_trait"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Slot/skills"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Slot/trait_bonuses"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Potential_reward">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Potential_reward/type"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Potential_reward/icon"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Potential_reward/rarity"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Potential_reward/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Potential_reward/symbol"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Potential_reward/item_type"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Potential_reward/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Potential_reward/full_name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Potential_reward/flavor"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Potential_reward/quantity"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Potential_reward/bonuses"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Potential_reward/potential_rewards"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Potential_reward/quantity.1"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Boost_window">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Boost_window/window"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Boost_window/reward"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Stored_immortal">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Stored_immortal/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Stored_immortal/quantity"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Stt_rewarded_warp">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Stt_rewarded_warp/chance"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Stt_rewarded_warp/period_minutes"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Ranked_bracket">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Ranked_bracket/first"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Ranked_bracket/last"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Ranked_bracket/rewards"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Ranked_bracket/quantity"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Statu">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Statu/purchase_avail"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Full_body">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Full_body/file"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Pvp_timer">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Pvp_timer/supports_rewarding"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Pvp_timer/pvp_allowed"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Pvp_timer/changes_in"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Client_asset">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Client_asset/system"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Client_asset/place"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Reputation_icon">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Reputation_icon/file"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Mailbox">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Mailbox/status"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Mailbox/sendable"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Mailbox/sent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Mailbox/received"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Mailbox/accepted"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Mailbox/stores"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Featured_offer">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Featured_offer/offer"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Featured_offer/status"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Cap_achiever">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Cap_achiever/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Cap_achiever/date"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Chat"/>
+    <genClasses ecoreClass="noc10.ecore#//Shuttle">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Shuttle/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Shuttle/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Shuttle/description"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Shuttle/state"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Shuttle/expires_in"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Shuttle/faction_id"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Shuttle/slots"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Shuttle/rewards"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Shuttle/token"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Shuttle/allow_borrow"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Shuttle/crew_bonuses"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Shuttle/shuttle_mission_rewards"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Reroll_description">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Reroll_description/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Reroll_description/jackpot"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Reroll_description/crew_required"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Stt_rewarded_shuttle">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Stt_rewarded_shuttle/chance"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Stt_rewarded_shuttle/period_minutes"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Shuttle_adventure">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Shuttle_adventure/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Shuttle_adventure/symbol"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Shuttle_adventure/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Shuttle_adventure/faction_id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Shuttle_adventure/token_archetype_id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Shuttle_adventure/challenge_rating"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Shuttle_adventure/shuttles"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Shuttle_adventure/completes_in_seconds"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Shuttle_adventure/x"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Shuttle_adventure/y"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Shuttle_token_preview_item">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Shuttle_token_preview_item/type"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Shuttle_token_preview_item/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Shuttle_token_preview_item/symbol"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Shuttle_token_preview_item/item_type"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Shuttle_token_preview_item/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Shuttle_token_preview_item/full_name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Shuttle_token_preview_item/flavor"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Shuttle_token_preview_item/icon"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Shuttle_token_preview_item/quantity"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Shuttle_token_preview_item/rarity"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Next_threshold_reward">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Next_threshold_reward/type"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Next_threshold_reward/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Next_threshold_reward/symbol"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Next_threshold_reward/item_type"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Next_threshold_reward/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Next_threshold_reward/full_name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Next_threshold_reward/flavor"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Next_threshold_reward/icon"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Next_threshold_reward/quantity"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Next_threshold_reward/rarity"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Pvp_division">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Pvp_division/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Pvp_division/tier"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Pvp_division/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Pvp_division/description"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Pvp_division/min_ship_rarity"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Pvp_division/max_ship_rarity"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Pvp_division/max_crew_rarity"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Pvp_division/setup"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Intro">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Intro/text"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Intro/portrait"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Intro/speaker_name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Intro/response"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Granted">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Granted/uuid"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Granted/gamerTag"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Granted/symbol"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Granted/specialized"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Granted/state"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Granted/updated"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Granted/history"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Dispute">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Dispute/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Dispute/symbol"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Dispute/desc_id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Dispute/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Dispute/description"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Dispute/episode"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Dispute/systems"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Dispute/marker"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Dispute/marker_icon"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Dispute/points_icon"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Dispute/brand_icon"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Dispute/min_points"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Dispute/expires_in"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Dispute/first_mission"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Dispute/intro"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Dispute/factions"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Dispute/milestones"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Dispute/rewards"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Dispute/started"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Dispute/milestone_text"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Event">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Event/type"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Event/quest_id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Event/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Event/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Event/description"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Event/rules"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Event/bonus_text"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Event/rewards_teaser"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Event/shop_layout"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Event/featured_crew"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Event/threshold_rewards"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Event/ranked_brackets"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Event/squadron_ranked_brackets"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Event/content"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Event/instance_id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Event/status"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Event/seconds_to_start"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Event/seconds_to_end"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Event/phases"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Event/opened"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Event/opened_phase"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Event/victory_points"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Event/bonus_victory_points"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Event/claimed_threshold_reward_points"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Event/unclaimed_threshold_rewards"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Event/last_threshold_points"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Event/next_threshold_points"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Event/next_threshold_rewards"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Crew_slot">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew_slot/symbol"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew_slot/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew_slot/skill"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew_slot/trait"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Crafting_bonuse">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crafting_bonuse/14"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Ship">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Ship/archetype_id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Ship/symbol"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Ship/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Ship/rarity"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Ship/icon"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Ship/flavor"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Ship/max_level"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Ship/actions"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Ship/shields"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Ship/hull"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Ship/attack"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Ship/evasion"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Ship/accuracy"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Ship/crit_chance"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Ship/crit_bonus"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Ship/attacks_per_second"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Ship/shield_regen"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Ship/traits"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Ship/traits_hidden"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Ship/antimatter"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Ship/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Ship/level"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Ship/model"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Ship/schematic_gain_cost_next_level"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Ship/schematic_id"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Ship/schematic_icon"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Ship/battle_stations"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Place">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Place/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Place/symbol"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Place/system"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Place/client_asset"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Place/display_name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Place/visited"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Event_ticket">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Event_ticket/current"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Event_ticket/max"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Event_ticket/spend_in"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Event_ticket/reset_in"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Image_small">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Image_small/file"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Science_skill">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Science_skill/core"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Science_skill/range_min"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Science_skill/range_max"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Cadet_ticket">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Cadet_ticket/current"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Cadet_ticket/max"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Cadet_ticket/spend_in"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Cadet_ticket/reset_in"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Voyage_summarie">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Voyage_summarie/summaries"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Voyage_summarie/flavor_amount"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Crew_bonuse">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew_bonuse/data_tng_crew"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew_bonuse/data_firstcontactskin_crew"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew_bonuse/data_detective_crew"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew_bonuse/data_cowboy_crew"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew_bonuse/data_prospero_crew"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew_bonuse/data_friar_tuck_crew"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew_bonuse/data_generations_crew"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew_bonuse/data_romulan_crew"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew_bonuse/data_mirror_crew"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew_bonuse/vic_fontaine_crew"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew_bonuse/vic_mirror_crew"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew_bonuse/tucker_commander_crew"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew_bonuse/tucker_rescuer_crew"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew_bonuse/tucker_mirror_crew"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew_bonuse/tucker_evsuit_crew"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew_bonuse/tucker_cowboy_crew"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew_bonuse/kira_mirror_crew"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew_bonuse/worf_mirror_crew"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew_bonuse/garak_mirror_crew"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew_bonuse/uhura_mirror_crew"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew_bonuse/tpol_mirror_crew"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew_bonuse/sisko_mirror_crew"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew_bonuse/spock_mirror_crew"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew_bonuse/phlox_mirror_crew"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew_bonuse/reed_mirror_crew"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew_bonuse/obrien_mirror_crew"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew_bonuse/picard_mirror_crew"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew_bonuse/sato_mirror_crew"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew_bonuse/archer_mirror_crew"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew_bonuse/jennifersisko_mirror_crew"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew_bonuse/kehleyr_mirror_crew"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew_bonuse/bashir_mirror_crew"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew_bonuse/kirk_mirror_crew"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew_bonuse/ezri_mirror_crew"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew_bonuse/dax_jadzia_mirror_crew"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Cwin">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Cwin/open"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Cwin/close"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Squadron_ranked_bracket">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Squadron_ranked_bracket/first"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Squadron_ranked_bracket/last"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Squadron_ranked_bracket/rewards"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Squadron_ranked_bracket/quantity"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Mission">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Mission/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Mission/title"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Mission/speaker"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Mission/description"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Mission/portrait"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Mission/image"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Mission/image_small"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Mission/requirement"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Setup">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Setup/ship_id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Setup/slots"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Trait_bonuse"/>
+    <genClasses ecoreClass="noc10.ecore#//Ability">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Ability/condition"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Ability/type"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Ability/amount"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Crew">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew/symbol"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew/short_name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew/flavor"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew/archetype_id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew/xp"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew/xp_for_current_level"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew/xp_for_next_level"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew/max_xp"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew/favorite"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew/level"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew/in_buy_back_state"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew/max_level"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew/rarity"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew/max_rarity"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew/equipment_rank"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew/max_equipment_rank"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Crew/equipment_slots"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew/equipment"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Crew/icon"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Crew/portrait"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Crew/full_body"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew/voice_over"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew/expires_in"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew/active_status"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew/active_id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew/active_index"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew/passive_status"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew/passive_id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew/passive_index"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew/traits"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew/traits_hidden"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Crew/skills"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Crew/ship_battle"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Crew/action"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew/default_avatar"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Crew/cross_fuse_targets"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Crew/cap_achiever"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Accepted_mission">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Accepted_mission/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Accepted_mission/symbol"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Accepted_mission/description"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Accepted_mission/episode"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Accepted_mission/episode_title"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Accepted_mission/episode_portrait"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Accepted_mission/marker"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Accepted_mission/marker_icon"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Accepted_mission/exclude_from_timeline"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Accepted_mission/stars_earned"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Accepted_mission/total_stars"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Accepted_mission/accepted"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Accepted_mission/state"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Accepted_mission/main_story"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Cadet_schedule">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Cadet_schedule/day"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Cadet_schedule/schedule"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Cadet_schedule/missions"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Cadet_schedule/current"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Cadet_schedule/ends_in"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Cadet_schedule/next"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Cadet_schedule/next_starts_in"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Character">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Character/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Character/display_name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Character/using_default_name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Character/level"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Character/max_level"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Character/xp"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Character/xp_for_current_level"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Character/xp_for_next_level"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Character/location"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Character/destination"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Character/navmap"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Character/accepted_missions"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Character/active_conflict"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Character/shuttle_bays"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Character/next_shuttle_bay_cost"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Character/can_purchase_shuttle_bay"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Character/crew_avatar"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Character/stored_immortals"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Character/seconds_to_scan_cooldown"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Character/scan_speedups_today"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Character/replay_energy_max"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Character/replay_energy_rate"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Character/seconds_from_replay_energy_basis"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Character/replay_energy_overflow"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Character/boost_windows"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Character/seconds_from_last_boost_claim"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Character/video_ad_chroniton_boost_reward"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Character/cadet_tickets"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Character/pvp_tickets"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Character/event_tickets"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Character/cadet_schedule"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Character/pvp_divisions"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Character/pvp_timer"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Character/crew"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Character/items"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Character/crew_borrows"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Character/crew_shares"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Character/crew_limit"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Character/crew_limit_increase_per_purchase"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Character/next_crew_limit_increase_cost"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Character/can_purchase_crew_limit_increase"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Character/item_limit"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Character/ships"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Character/current_ship_id"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Character/shuttle_adventures"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Character/factions"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Character/disputes"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Character/tng_the_game_level"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Character/open_packs"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Character/daily_activities"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Character/next_daily_activity_reset"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Character/next_starbase_donation_reset"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Character/fleet_activities"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Character/next_fleet_activity_reset"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Character/freestanding_quests"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Character/daily_rewards_state"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Character/events"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Character/dispute_histories"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Character/stimpack"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Character/tutorials"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Character/location_channel_prefix"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Character/honor_reward_by_rarity"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Character/voyage_descriptions"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Character/voyage"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Character/voyage_summaries"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Character/reroll_descriptions"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Security_skill">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Security_skill/core"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Security_skill/range_min"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Security_skill/range_max"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Milestone">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Milestone/text"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Milestone/speaker_name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Milestone/portrait"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Milestone/event"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Milestone/goal"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Milestone/rewards"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Milestone/claimed"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Milestone/claimable"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Battle_station">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Battle_station/skill"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Bonuse">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Bonuse/7"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Bonuse/8"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Bonuse/14"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Bonuse/2"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Video_ad_chroniton_boost_reward">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Video_ad_chroniton_boost_reward/type"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Video_ad_chroniton_boost_reward/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Video_ad_chroniton_boost_reward/symbol"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Video_ad_chroniton_boost_reward/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Video_ad_chroniton_boost_reward/full_name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Video_ad_chroniton_boost_reward/flavor"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Video_ad_chroniton_boost_reward/icon"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Video_ad_chroniton_boost_reward/quantity"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Claimed">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Claimed/uuid"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Claimed/gamerTag"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Claimed/symbol"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Claimed/state"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Claimed/updated"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Claimed/history"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Claimed/specialized"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Claimed/cwin"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Claimed/cwinSecsTillOpen"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Claimed/cwinSecsTillClose"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Obtain">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Obtain/ent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Obtain/spec"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Obtain/count"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Discovered">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Discovered/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Discovered/dbid"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Discovered/lang"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Discovered/timezone"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Discovered/locale"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Discovered/display_name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Discovered/money"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Discovered/premium_purchasable"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Discovered/premium_earnable"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Discovered/honor"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Discovered/vip_points"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Discovered/vip_level"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Discovered/currency_exchanges"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Discovered/replicator_uses_today"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Discovered/replicator_limit"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Discovered/character"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Discovered/fleet"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Discovered/squad"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Discovered/mailbox"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Discovered/fleet_invite"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Discovered/entitlements"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Discovered/chats"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Discovered/commerce"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Discovered/environment"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Discovered/featured_offers"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Discovered/npe_complete"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Discovered/community_links"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Currency_exchange">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Currency_exchange/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Currency_exchange/amount"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Currency_exchange/output"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Currency_exchange/input"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Currency_exchange/schedule"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Currency_exchange/exchanges_today"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Currency_exchange/bonus"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Currency_exchange/limit"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Schematic_icon">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Schematic_icon/file"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Offer">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Offer/symbol"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Offer/image"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Offer/title"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Offer/bonus_text"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Offer/info"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Offer/bundle"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Offer/featured"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Offer/obtain"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Offer/resettable"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Offer/daily_activity_applicable"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Offer/image_2"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Offer/bonus_text_2"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Offer/bonus_text_3"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Offer/purchase_limit"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Offer/active_stat_reqs"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Offer/subtitle_2"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Offer/active_period_length"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Content">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Content/content_type"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Content/shuttles"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Environment">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Environment/tutorials"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Environment/restrictions"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Environment/flags"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Environment/background_idle_period"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Environment/hud_special_offer_poll_frequency"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Environment/pvp_enabled"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Environment/stasis_vault_enabled"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Environment/fleet_request_purge_threshold"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Environment/fleet_request_purge_expiration_days"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Environment/event_refresh_min_seconds"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Environment/event_refresh_max_seconds"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Environment/squadrons_enabled"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Environment/honor_enabled"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Environment/force_offer_popup_at_login"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Environment/adaptive_offers_enabled"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Environment/buy_back_enabled"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Environment/display_server_environment"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Environment/video_ad_campaign_limit"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Environment/gauntlet_enabled"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Environment/location_updates_enabled"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Environment/location_chat_enabled"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Environment/faction_event_order_randomized"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Environment/fleet_activities_enabled"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Environment/fleet_activities_restriction_enabled"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Environment/enable_server_toasts"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Environment/minimum_toast_delay_in_seconds"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Environment/starbase_enabled"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Environment/voyages_enabled"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Environment/starbase_refresh"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Environment/detect_conflict_mastery_errors"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Environment/reroll_enabled"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Environment/reroll_rarity_limit"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Environment/dilithium_purchase_popup_enabled"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Environment/dilithium_purchase_popup_threshold"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Environment/lazy_load_ui"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Environment/one_tap_craft_enabled"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Icon">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Icon/file"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Icon/atlas_info"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Pvp_ticket">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Pvp_ticket/current"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Pvp_ticket/max"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Pvp_ticket/spend_in"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Pvp_ticket/reset_in"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Marker_icon">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Marker_icon/file"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Destination">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Destination/system"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Destination/place"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Destination/setup"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Destination/x"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Destination/y"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Shuttle_mission_reward">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Shuttle_mission_reward/type"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Shuttle_mission_reward/icon"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Shuttle_mission_reward/rarity"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Shuttle_mission_reward/potential_rewards"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Shuttle_mission_reward/quantity"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Shuttle_mission_reward/symbol"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Shuttle_mission_reward/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Shuttle_mission_reward/flavor"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Shuttle_mission_reward/faction_id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Shuttle_mission_reward/id"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Action">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Action/bonus_amount"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Action/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Action/symbol"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Action/cooldown"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Action/initial_cooldown"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Action/duration"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Action/bonus_type"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Action/crew"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Action/icon"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Action/ability"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Action/penalty"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Phase">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Phase/splash_image"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Phase/goals"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Phase/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Phase/seconds_to_end"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Summarie">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Summarie/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Summarie/min"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Summarie/max"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Stt_rewarded_chroniton_boost">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Stt_rewarded_chroniton_boost/chance"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Stt_rewarded_chroniton_boost/period_minutes"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Fleet_invite">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Fleet_invite/status"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Fleet_invite/sendable"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Fleet_invite/sent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Fleet_invite/received"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Fleet_invite/accepted"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Fleet_invite/stores"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//System">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//System/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//System/symbol"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//System/x"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//System/y"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//System/default_place"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//System/display_name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//System/star"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//System/decorator"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//System/faction"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//System/scale"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//System/active"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Navmap">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Navmap/places"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Navmap/systems"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Next_crew_limit_increase_cost">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Next_crew_limit_increase_cost/currency"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Next_crew_limit_increase_cost/amount"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Squad">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Squad/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Squad/slabel"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Squad/rank"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Community_link">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Community_link/symbol"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Community_link/image"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Community_link/title"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Community_link/date"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Community_link/url"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Faction">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Faction/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Faction/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Faction/reputation"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Faction/discovered"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Faction/completed_shuttle_adventures"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Faction/icon"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Faction/representative_icon"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Faction/representative_full_body"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Faction/reputation_icon"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Faction/reputation_item_icon"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Faction/home_system"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Faction/shop_layout"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Faction/shuttle_token_id"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Faction/shuttle_token_preview_item"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Faction/event_winner_rewards"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Faction/symbol"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Faction/points"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Faction/portrait"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Faction/shuttle_token"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Faction/resolution_mission_id"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Faction/reward"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Portrait">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Portrait/file"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Brand_icon">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Brand_icon/file"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Representative_icon">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Representative_icon/file"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Penalty">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Penalty/type"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Penalty/amount"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Skill">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Skill/science_skill"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Skill/engineering_skill"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Skill/command_skill"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Skill/security_skill"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Skill/primary_skill"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Skill/secondary_skill"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Unclaimed_threshold_reward">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Unclaimed_threshold_reward/type"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Unclaimed_threshold_reward/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Unclaimed_threshold_reward/symbol"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Unclaimed_threshold_reward/item_type"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Unclaimed_threshold_reward/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Unclaimed_threshold_reward/full_name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Unclaimed_threshold_reward/flavor"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Unclaimed_threshold_reward/icon"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Unclaimed_threshold_reward/quantity"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Unclaimed_threshold_reward/rarity"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Unclaimed_threshold_reward/bonuses"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Splash_image">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Splash_image/file"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Schedule">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Schedule/day"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Schedule/mission"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Reward">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Reward/type"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Reward/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Reward/symbol"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Reward/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Reward/full_name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Reward/flavor"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Reward/icon"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Reward/quantity"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Reward/rarity"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Reward/potential_rewards"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Reward/portrait"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Reward/full_body"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Reward/skills"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Reward/traits"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Reward/action"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Reward/item_type"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Featured_crew">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Featured_crew/type"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Featured_crew/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Featured_crew/symbol"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Featured_crew/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Featured_crew/full_name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Featured_crew/flavor"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Featured_crew/icon"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Featured_crew/portrait"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Featured_crew/rarity"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Featured_crew/full_body"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Featured_crew/skills"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Featured_crew/traits"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Featured_crew/action"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Featured_crew/quantity"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Entitlement">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Entitlement/granted"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference noc10.ecore#//Entitlement/claimed"/>
+    </genClasses>
+    <genClasses ecoreClass="noc10.ecore#//Location">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Location/system"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Location/place"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Location/setup"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Location/x"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute noc10.ecore#//Location/y"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>
