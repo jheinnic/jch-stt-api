@@ -1,10 +1,10 @@
-interface IAbility {
+export interface IAbility {
    condition: number
    type: number
    amount: number
 }
 
-interface IAcceptedMission {
+export interface IAcceptedMission {
    id: number
    symbol: string
    description: string
@@ -21,7 +21,7 @@ interface IAcceptedMission {
    main_story: boolean
 }
 
-interface IAction {
+export interface IAction {
    bonus_amount: number
    name: string
    symbol: string
@@ -35,21 +35,21 @@ interface IAction {
    penalty: IPenalty
 }
 
-interface IBattleStation {
+export interface IBattleStation {
    skill: string
 }
 
-interface IBonus {
+export interface IBonus {
    value: number
    probability: number
 }
 
-interface IBoostWindow {
+export interface IBoostWindow {
    window: number[]
    reward: IReward
 }
 
-interface ICadetSchedule {
+export interface ICadetSchedule {
    day: number
    schedule: ISchedule[]
    missions: IMission[]
@@ -59,12 +59,12 @@ interface ICadetSchedule {
    next_starts_in: number
 }
 
-interface ICapAchiever {
+export interface ICapAchiever {
    name: string
    date: number
 }
 
-interface ICharacter {
+export interface ICharacter {
    id: number
    display_name: string
    using_default_name: boolean
@@ -136,7 +136,7 @@ interface ICharacter {
 //interface Chat {
    //}
 
-interface IClaimed {
+export interface IClaimed {
    uuid: string
    gamer_tag: number
    symbol: string
@@ -149,16 +149,16 @@ interface IClaimed {
    cwin_secs_till_close: number
 }
 
-interface IClientAsset {
+export interface IClientAsset {
    system: string
    place: string
 }
 
-interface ICommerce {
+export interface ICommerce {
    layaways: string[]
 }
 
-interface ICommunityLink {
+export interface ICommunityLink {
    symbol: string
    image: IImage
    title: string
@@ -166,17 +166,17 @@ interface ICommunityLink {
    url: string
 }
 
-interface IContent {
+export interface IContent {
    content_type: string
    shuttles: IShuttle[]
 }
 
-interface ICost {
+export interface ICost {
    currency: number
    amount: number
 }
 
-interface ICrew {
+export interface ICrew {
    id: number
    symbol: string
    name: string
@@ -218,7 +218,7 @@ interface ICrew {
    cap_achiever: ICapAchiever
 }
 
-interface ICrewAvatar {
+export interface ICrewAvatar {
    id: number
    symbol: string
    name: string
@@ -231,19 +231,19 @@ interface ICrewAvatar {
    hide_from_cryo: boolean
 }
 
-interface ICrewBonus {
+export interface ICrewBonus {
    crew_tag: string
    value: number
 }
 
-interface ICrewSlot {
+export interface ICrewSlot {
    symbol: string
    name: string
    skill: string
    trait: string
 }
 
-interface ICurrencyExchange {
+export interface ICurrencyExchange {
    id: number
    amount: number
    output: number
@@ -254,12 +254,12 @@ interface ICurrencyExchange {
    limit: number
 }
 
-interface ICwin {
+export interface ICwin {
    open: number
    close: number
 }
 
-interface IDailyActivity {
+export interface IDailyActivity {
    id: number
    name: string
    description: string
@@ -276,13 +276,13 @@ interface IDailyActivity {
    status: string
 }
 
-interface IDailyRewardsState {
+export interface IDailyRewardsState {
    seconds_until_next_reward: number
    today_reward_day_index: number
    reward_days: IRewardDay[]
 }
 
-interface IDestination {
+export interface IDestination {
    system: string
    place: string
    setup: string
@@ -290,7 +290,7 @@ interface IDestination {
    y: number
 }
 
-interface IPlayer {
+export interface IPlayer {
    id: number
    dbid: number
    lang: string
@@ -320,7 +320,7 @@ interface IPlayer {
    community_links: ICommunityLink[]
 }
 
-interface IDispute {
+export interface IDispute {
    id: number
    symbol: string
    desc_id: number
@@ -343,7 +343,7 @@ interface IDispute {
    milestone_text: string
 }
 
-interface IDisputeHistory {
+export interface IDisputeHistory {
    id: number
    symbol: string
    name: string
@@ -357,12 +357,12 @@ interface IDisputeHistory {
    faction_id: number
 }
 
-interface IEntitlements {
+export interface IEntitlements {
    granted: IGranted[]
    claimed: IClaimed[]
 }
 
-interface IEnvironment {
+export interface IEnvironment {
    tutorials: string[]
    restrictions: string
    flags: string[]
@@ -401,13 +401,13 @@ interface IEnvironment {
    one_tap_craft_enabled: boolean
 }
 
-interface IEquipmentSlot {
+export interface IEquipmentSlot {
    level: number
    archetype: number
 }
 
 // TODO: IHow to use 'type' as a property name?
-interface IEvent {
+export interface IEvent {
    type: string
    quest_id: number
    id: number
@@ -438,7 +438,7 @@ interface IEvent {
    next_threshold_rewards: INextThresholdReward[]
 }
 
-interface IFaction {
+export interface IFaction {
    id: number
    name: string
    reputation: number
@@ -462,7 +462,7 @@ interface IFaction {
    reward: IReward
 }
 
-interface IFeaturedCrew {
+export interface IFeaturedCrew {
    type: number
    id: number
    symbol: string
@@ -479,12 +479,12 @@ interface IFeaturedCrew {
    quantity: number
 }
 
-interface IFeaturedOffer {
+export interface IFeaturedOffer {
    offer: IOffer
    status: IStatus
 }
 
-interface IFleet {
+export interface IFleet {
    id: number
    nicon_index: number
    nleader_player_dbid: number
@@ -495,7 +495,7 @@ interface IFleet {
    epoch_time: number
 }
 
-interface IFleetActivities {
+export interface IFleetActivities {
    id: number
    name: string
    description: string
@@ -508,7 +508,7 @@ interface IFleetActivities {
    claims_available_count: number
 }
 
-interface IFleetInvite {
+export interface IFleetInvite {
    status: string
    sendable: number
    sent: number
@@ -517,11 +517,11 @@ interface IFleetInvite {
    stores: IStore
 }
 
-interface IFullBody {
+export interface IFullBody {
    file: string
 }
 
-interface IGoal {
+export interface IGoal {
    id: number
    faction_id: number
    flavor: string
@@ -531,7 +531,7 @@ interface IGoal {
    claimed_reward_points: number
 }
 
-interface IGranted {
+export interface IGranted {
    uuid: string
    gamer_tag: number
    symbol: string
@@ -541,31 +541,31 @@ interface IGranted {
    history: IHistory[]
 }
 
-interface IHistory {
+export interface IHistory {
    what: string
    reason: string
    when: string
 }
 
-interface IIcon {
+export interface IIcon {
    file: string
    atlas_info: string
 }
 
-interface IImage {
+export interface IImage {
    file: string
    url: string
    version: string
 }
 
-interface Inumberro {
+export interface Inumberro {
    text: string
    portrait: IIcon
    speaker_name: string
    response: string
 }
 
-interface IItem {
+export interface IItem {
    id: number
    type: number
    symbol: string
@@ -584,7 +584,7 @@ interface IItem {
    crafting_bonuses: IBonus[]
 }
 
-interface ILocation {
+export interface ILocation {
    system: string
    place: string
    setup: string
@@ -592,7 +592,7 @@ interface ILocation {
    y: number
 }
 
-interface IMailbox {
+export interface IMailbox {
    status: string
    sendable: number
    sent: number
@@ -601,12 +601,12 @@ interface IMailbox {
    stores: IStore
 }
 
-interface IMasterLimit {
+export interface IMasterLimit {
    chance: number
    period_minutes: number
 }
 
-interface IMilestone {
+export interface IMilestone {
    text: string
    speaker_name: string
    portrait: IIcon
@@ -617,7 +617,7 @@ interface IMilestone {
    claimable: boolean
 }
 
-interface IMission {
+export interface IMission {
    id: number
    title: string
    speaker: string
@@ -628,12 +628,12 @@ interface IMission {
    requirement: string
 }
 
-interface INavmap {
+export interface INavmap {
    places: IPlace[]
    systems: ISystem[]
 }
 
-interface INextThresholdReward {
+export interface INextThresholdReward {
    type: number
    id: number
    symbol: string
@@ -646,13 +646,13 @@ interface INextThresholdReward {
    rarity: number
 }
 
-interface IObtain {
+export interface IObtain {
    ent: string
    spec: string
    count: number
 }
 
-interface IOffer {
+export interface IOffer {
    symbol: string
    image: IImage
    image_two: IImage
@@ -672,19 +672,19 @@ interface IOffer {
    subtitle_two: string
 }
 
-interface IPenalty {
+export interface IPenalty {
    type: number
    amount: number
 }
 
-interface IPhase {
+export interface IPhase {
    splash_image: ISplashImage
    goals: IGoal[]
    id: number
    seconds_to_end: number
 }
 
-interface IPlace {
+export interface IPlace {
    id: number
    symbol: string
    system: string
@@ -693,7 +693,7 @@ interface IPlace {
    visited: boolean
 }
 
-interface IPotentialReward {
+export interface IPotentialReward {
    type: number
    icon: IIcon
    rarity: number
@@ -708,7 +708,7 @@ interface IPotentialReward {
    quantity: number
 }
 
-interface IPvpDivision {
+export interface IPvpDivision {
    id: number
    tier: number
    name: string
@@ -719,33 +719,33 @@ interface IPvpDivision {
    setup: ISetup
 }
 
-interface IPvpTicket {
+export interface IPvpTicket {
    current: number
    max: number
    spend_in: number
    reset_in: number
 }
 
-interface IPvpTimer {
+export interface IPvpTimer {
    supports_rewarding: boolean
    pvp_allowed: boolean
    changes_in: number
 }
 
-interface IRankedBracket {
+export interface IRankedBracket {
    first: number
    last: number
    rewards: IReward[]
    quantity: number
 }
 
-interface IRerollDescription {
+export interface IRerollDescription {
    id: number
    jackpot: number
    crew_required: number
 }
 
-interface IReward {
+export interface IReward {
    type: number
    id: number
    symbol: string
@@ -764,7 +764,7 @@ interface IReward {
    item_type: number
 }
 
-interface IRewardDay
+export interface IRewardDay
 {
    id: number
    symbol: string
@@ -772,17 +772,17 @@ interface IRewardDay
    double_at_vip: number
 }
 
-interface ISchedule {
+export interface ISchedule {
    day: number
    mission: number
 }
 
-interface ISetup {
+export interface ISetup {
    ship_id: number
    slots: number[]
 }
 
-interface IShip {
+export interface IShip {
    archetype_id: number
    symbol: string
    name: string
@@ -812,14 +812,14 @@ interface IShip {
    battle_stations: IBattleStation[]
 }
 
-interface IShipBattle {
+export interface IShipBattle {
    accuracy: number
    evasion: number
    crit_chance: number
    crit_bonus: number
 }
 
-interface IShuttle {
+export interface IShuttle {
    id: number
    name: string
    description: string
@@ -834,7 +834,7 @@ interface IShuttle {
    shuttle_mission_rewards: IShuttleMissionReward[]
 }
 
-interface IShuttleAdventure {
+export interface IShuttleAdventure {
    id: number
    symbol: string
    name: string
@@ -847,7 +847,7 @@ interface IShuttleAdventure {
    y: number
 }
 
-interface IShuttleMissionReward {
+export interface IShuttleMissionReward {
    type: number
    icon: IIcon
    rarity: number
@@ -860,7 +860,7 @@ interface IShuttleMissionReward {
    id: number
 }
 
-interface IShuttleTokenPreviewItem {
+export interface IShuttleTokenPreviewItem {
    type: number
    id: number
    symbol: string
@@ -873,7 +873,7 @@ interface IShuttleTokenPreviewItem {
    rarity: number
 }
 
-interface ISkills {
+export interface ISkills {
    science_skill: IValueRange
    engineering_skill: IValueRange
    command_skill: IValueRange
@@ -884,35 +884,35 @@ interface ISkills {
    secondary_skill: string
 }
 
-interface ISlot {
+export interface ISlot {
    level: string
    required_trait: string
    skills: string[]
    //  trait_bonuses: ITraitBonus
 }
 
-interface ISplashImage {
+export interface ISplashImage {
    file: string
 }
 
-interface ISquad {
+export interface ISquad {
    id: number
    slabel: string
    rank: string
 }
 
-interface ISquadronRankedBracket {
+export interface ISquadronRankedBracket {
    first: number
    last: number
    rewards: IReward[]
    quantity: number
 }
 
-interface IStatus {
+export interface IStatus {
    purchase_avail: number
 }
 
-interface IStore {
+export interface IStore {
    social_friend: number
    game_reward: number
    social_gift: number
@@ -922,48 +922,48 @@ interface IStore {
    social_guild_invite: number
 }
 
-interface IStoredImmortal {
+export interface IStoredImmortal {
    id: number
    quantity: number
 }
 
-interface ISttRewardedChronitonBoost {
+export interface ISttRewardedChronitonBoost {
    chance: number
    period_minutes: number
 }
 
-interface ISttRewardedCredit {
+export interface ISttRewardedCredit {
    chance: number
    period_minutes: number
 }
 
-interface ISttRewardedDabo {
+export interface ISttRewardedDabo {
    chance: number
    period_minutes: number
 }
 
-interface ISttRewardedScan {
+export interface ISttRewardedScan {
    chance: number
    period_minutes: number
 }
 
-interface ISttRewardedShuttle {
+export interface ISttRewardedShuttle {
    chance: number
    period_minutes: number
 }
 
-interface ISttRewardedWarp {
+export interface ISttRewardedWarp {
    chance: number
    period_minutes: number
 }
 
-interface ISummary {
+export interface ISummary {
    name: string
    min: number
    max: number
 }
 
-interface ISystem {
+export interface ISystem {
    id: number
    symbol: string
    x: number
@@ -977,12 +977,12 @@ interface ISystem {
    active: boolean
 }
 
-interface IThresholdReward {
+export interface IThresholdReward {
    points: number
    rewards: IReward[]
 }
 
-interface ITicketCounter {
+export interface ITicketCounter {
    current: number
    max: number
    spend_in: string
@@ -992,13 +992,13 @@ interface ITicketCounter {
 //interface TraitBonus {
 //}
 
-interface ITutorial {
+export interface ITutorial {
    id: number
    symbol: string
    state: string
 }
 
-interface IUnclaimedThresholdReward {
+export interface IUnclaimedThresholdReward {
    type: number
    id: number
    symbol: string
@@ -1012,13 +1012,13 @@ interface IUnclaimedThresholdReward {
    bonuses: IBonus[]
 }
 
-interface IValueRange {
+export interface IValueRange {
    core: number
    range_min: number
    range_max: number
 }
 
-interface IVideoAdCampaignLimit {
+export interface IVideoAdCampaignLimit {
    master_limit: IMasterLimit
    stt_rewarded_scan: ISttRewardedScan
    stt_rewarded_warp: ISttRewardedWarp
@@ -1028,7 +1028,7 @@ interface IVideoAdCampaignLimit {
    stt_rewarded_chroniton_boost: ISttRewardedChronitonBoost
 }
 
-interface IVideoAdChronitonBoostReward {
+export interface IVideoAdChronitonBoostReward {
    type: number
    id: number
    symbol: string
@@ -1039,7 +1039,7 @@ interface IVideoAdChronitonBoostReward {
    quantity: number
 }
 
-interface IVoyageDescription {
+export interface IVoyageDescription {
    id: number
    symbol: string
    name: string
@@ -1050,12 +1050,12 @@ interface IVoyageDescription {
    crew_slots: ICrewSlot[]
 }
 
-interface IVoyageSummary {
+export interface IVoyageSummary {
    summaries: ISummary[]
    flavor_amount: number
 }
 
-interface IWinnerReward {
+export interface IWinnerReward {
    bonuses: IBonus
    time_modifier: number
    cr_modifier: number

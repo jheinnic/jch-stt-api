@@ -14,8 +14,6 @@ export interface ICrew {
    traits: string[];
    skills: ISkills;
    short_name: string;
-   flavor: string;
-   archetype_id: number;
 }
 
 export interface ISkills {

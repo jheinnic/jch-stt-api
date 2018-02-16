@@ -138,8 +138,8 @@ interface Character {
   rerollDescriptions: [RerollDescription]
 }
 
-interface Chat {
-}
+#interface Chat {
+#}
 
 interface Claimed {
   uuid: String
@@ -317,7 +317,7 @@ interface Player {
   mailbox: Mailbox
   fleetInvite: FleetInvite
   entitlements: Entitlements
-  chats: Chat
+#  chats: Chat
   commerce: Commerce
   environment: Environment
   featuredOffers: [FeaturedOffer]
@@ -891,7 +891,7 @@ interface Slot {
   level: String
   requiredTrait: String
   skills: [String]
-  traitBonuses: TraitBonus
+#  traitBonuses: TraitBonus
 }
 
 interface SplashImage {
@@ -992,8 +992,8 @@ interface TicketCounter {
   resetIn: Int
 }
 
-interface TraitBonus {
-}
+#interface TraitBonus {
+#}
 
 interface Tutorial {
   id: Int
@@ -1088,7 +1088,7 @@ type PlayerObject implements Player {
   mailbox: Mailbox
   fleetInvite: FleetInvite
   entitlements: Entitlements
-  chats: Chat
+#  chats: Chat
   commerce: Commerce
   environment: Environment
   featuredOffers: [FeaturedOffer]

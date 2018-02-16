@@ -692,7 +692,8 @@ interface Slot {
   level: String
   requiredTrait: String
   skills: [String]
-  traitBonuses: TraitBonus
+  // Omitting this because it never has values and GraphQL disallows empty classes
+  // traitBonuses: TraitBonus
 }
 
 interface SplashImage {
@@ -743,8 +744,8 @@ interface TicketCounter {
   resetIn: Int
 }
 
-interface TraitBonus {
-}
+//interface TraitBonus {
+//}
 
 interface Tutorial {
   id: Int

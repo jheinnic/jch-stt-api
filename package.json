@@ -21,8 +21,13 @@
   },
   "homepage": "https://github.com/IAmPicard/STTApi#readme",
   "devDependencies": {
+    "@types/event-stream": "^3.3.33",
+    "@types/jsonstream": "^0.8.30",
     "@types/node": "^8.5.2",
     "@types/superagent": "^3.5.6",
+    "@types/through": "^0.0.29",
+    "@types/through2": "^2.0.33",
+    "@types/through2-map": "^3.0.0",
     "apollo-codegen": "^0.18.2 || ^1.0.0",
     "codelyzer": "4.0.2",
     "copyfiles": "^1.2.0",
@@ -30,9 +35,10 @@
     "jasmine-marbles": "^0.2.0 || ^1.0.0",
     "tslint": "^5.8.0",
     "tslint-config-standard": "^7.0.0",
-    "typescript": "~2.5.3"
+    "typescript": "2.4.2"
   },
   "dependencies": {
+    "JSONStream": "^1.3.2",
     "ab-parser": "file:./AssetParser",
     "apollo-link": "^1.0.0",
     "apollo-server-hapi": "^1.3.2",
@@ -40,6 +46,7 @@
     "chance": "^1.0.13",
     "class-transformer": "^0.1.8",
     "class-validator": "^0.7.2",
+    "event-stream": "^3.3.4",
     "fluent-interface-builder": "^2.0.1",
     "graphql": "^0.11.7",
     "graphql-tag": "^2.5.0",
@@ -58,6 +65,9 @@
     "rxjs": "^5.5.6",
     "subscriptions-transport-ws": "^0.9.1",
     "superagent": "^3.8.2",
+    "through": "^2.3.8",
+    "through2-map": "^3.0.0",
+    "through2-reduce": "^1.1.1",
     "tslib": "^1.7.1",
     "uuid": "^3.1.0"
   },

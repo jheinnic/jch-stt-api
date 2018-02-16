@@ -1,0 +1,11 @@
+MATCH (self:Player {name:"Captain Neutrino"})-[:IMPORTED {timestamp: 1}]->(snap:PlayerSnapshot)
+MATCH (snap)-[:ENLISTED {timestamp: 1}]->(ci1:CrewInstance)-[:HAS_LEVEL]->(lvl1:CrewLevel)
+MATCH (snap)-[:ENLISTED {timestamp: 1}]->(ci2:CrewInstance)-[:HAS_LEVEL]->(lvl2:Cre)
+WITH ci1, ci2, lvl1, lvl2
+WHERE ci1 <> ci2 AND lvl1.cmd_rmax <= lvl2.cmd_rmax AND lvl1.cmd_rmin <= lvl2.cmd_rmin AND
+		lvl1.dip_rmax <= lvl2.dip_rmax AND lvl1.dip_rmin <= lvl2.dip_rmin AND
+		lvl1.eng_rmax <= lvl2.eng_rmax AND lvl1.eng_rmin <= lvl2.eng_rmin AND
+		lvl1.sec_rmax <= lvl2.sec_rmax AND lvl1.sec_rmin <= lvl2.sec_rmin AND
+		lvl1.med_rmax <= lvl2.med_rmax AND lvl1.med_rmin <= lvl2.med_rmin AND
+		lvl1.sci_rmax <= lvl2.sci_rmax AND lvl1.sci_rmin <= lvl2.sci_rmin
+RETURN ci1.symbol, ci2.symbol;
