@@ -1,6 +1,6 @@
 schema {
-  query: DiscoveredObject
-  mutation: DiscoveredObject
+  query: PlayerObject
+  mutation: PlayerObject
 }
 
 interface Ability {
@@ -295,7 +295,7 @@ interface Destination {
   y: Int
 }
 
-interface Discovered {
+interface Player {
   id: Int
   dbid: Int
   lang: String
@@ -1066,7 +1066,7 @@ interface WinnerReward {
   rewards: [Reward]
 }
 
-type DiscoveredObject implements Discovered {
+type PlayerObject implements Player {
   id: Int
   dbid: Int
   lang: String

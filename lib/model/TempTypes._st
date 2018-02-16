@@ -9,10 +9,13 @@ export interface ICharacterData {
 }
 
 export interface ICrew {
-   id: string;
+   id: number;
    name: string;
    traits: string[];
    skills: ISkills;
+   short_name: string;
+   flavor: string;
+   archetype_id: number;
 }
 
 export interface ISkills {
@@ -21,7 +24,7 @@ export interface ISkills {
    engineering_skill: ISkillStat;
    security_skill: ISkillStat;
    science_skill: ISkillStat;
-   medical_skill: ISkillStat;
+   medicine_skill: ISkillStat;
 }
 
 export interface ISkillStat {
