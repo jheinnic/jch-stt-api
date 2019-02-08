@@ -1,5 +1,5 @@
 :param username "jheinnic@hotmail.com"
-:param traits ["undercover operative", "brutal", "borg"]
+:param traits ["resourceful", "innovator", "vulcan"]
 :param skill "sci"
 :param timestamp timestamp()
 

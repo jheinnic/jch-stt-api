@@ -1,0 +1,197 @@
+owner_id,crew_id,symbol,name,short_name,traits,max_rarity,rarity,level,cmd_core,cmd_rmin,cmd_rmax,dip_core,dip_rmin,dip_rmax,eng_core,eng_rmin,eng_rmax,sec_core,sec_rmin,sec_rmax,med_core,med_rmin,med_rmax,sci_core,sci_rmin,sci_rmax
+4639468,173633314,seven_allblue_crew,Seven in Blue,Seven,human;borg;civilian;federation,2,2,100,0,0,0,0,0,0,297,54,133,0,0,0,0,0,0,309,52,213
+4639468,173633316,crusher_labcoat_crew,CMO Crusher,Crusher,human;starfleet;federation;doctor;caregiver;cyberneticist,2,2,100,0,0,0,0,0,0,0,0,0,0,0,0,305,54,179,0,0,0
+4639468,173633318,data_tng_crew,Lt Commander Data,Data,android;federation;starfleet;cyberneticist;musician,2,2,99,0,0,0,0,0,0,405,23,62,168,10,29,0,0,0,180,39,121
+4639468,173634668,picard_captain_crew,Enterprise-D Picard,Picard,federation;starfleet;human;diplomat;inspiring;astrophysicist;exoarchaeology;tactician,2,2,100,271,27,70,364,55,129,0,0,0,0,0,0,0,0,0,159,23,72
+4639468,173646145,hugh_drone_crew,Hugh,Hugh,borg;maverick;cultural_figure,3,3,66,0,0,0,216,22,55,128,20,51,254,53,131,0,0,0,0,0,0
+4639468,173649046,spock_commander_crew,Commander Spock,Spock,federation;starfleet;exobiology;astrophysicist;human;vulcan;telepath;musician,1,1,56,81,6,33,0,0,0,0,0,0,0,0,0,0,0,0,130,6,37
+4639468,173661084,sato_ensign_crew,Ensign Sato,Sato,human;starfleet;prodigy;communicator,2,2,100,0,0,0,404,28,101,0,0,0,0,0,0,0,0,0,0,0,0
+4639468,173741195,riker_s2_commander_crew,Commander Riker,Riker,human;federation;starfleet;pilot;maverick;gambler;romantic,2,2,100,304,80,195,313,22,65,0,0,0,131,30,91,0,0,0,0,0,0
+4639468,173741197,odo_occupation_crew,Investigator Odo,Odo,changeling;cardassian;investigator;interrogator,1,1,60,0,0,0,0,0,0,0,0,0,135,17,87,0,0,0,0,0,0
+4639468,174300588,nog_cadet_crew,Cadet Nog,Nog,ferengi;starfleet;gambler;merchant,2,2,47,0,0,0,123,8,19,73,5,13,157,13,40,0,0,0,0,0,0
+4639468,174573335,yates_captain_crew,Captain Kasidy Yates,Yates,federation;civilian;human;bajoran;smuggler,3,2,53,212,14,51,95,8,24,0,0,0,145,9,23,0,0,0,0,0,0
+4639468,174573643,vash_explorer_crew,Expedition Vash,Vash,human;federation;scoundrel;explorer;exoarchaeology;smuggler;civilian,3,3,56,0,0,0,97,8,29,0,0,0,223,27,71,0,0,0,121,19,66
+4639468,174626707,worf_security_chief_crew,Security Chief Worf,Worf,klingon;federation;starfleet;duelist;investigator,2,2,100,223,58,147,0,0,0,0,0,0,346,62,148,0,0,0,0,0,0
+4639468,175626168,jake_writer_crew,Writer Jake Sisko,Jake,human;federation;civilian;writer;gambler;romantic,3,3,53,0,0,0,220,21,64,0,0,0,0,0,0,0,0,0,0,0,0
+4639468,176913845,fox_ambassador_crew,Ambassador Fox,Fox,federation;civilian;human;communicator;diplomat;veteran,3,3,80,301,47,118,391,36,89,0,0,0,0,0,0,0,0,0,0,0,0
+4639468,176914220,eddington_maquis_crew,Maquis Eddington,Eddington,human;maquis;desperate,4,1,40,155,24,68,0,0,0,0,0,0,176,24,72,0,0,0,0,0,0
+4639468,177708964,selar_crew,Doctor Selar,Selar,vulcan;doctor;starfleet;federation;telepath,3,3,90,0,0,0,0,0,0,0,0,0,0,0,0,353,88,277,0,0,0
+4639468,177710020,mora_crew,Mora Pol,Mora,bajoran;exobiology;civilian,3,3,50,106,7,28,0,0,0,0,0,0,0,0,0,160,14,39,214,18,57
+4639468,177750606,obrien_postfirstcontact_crew,Chief O'Brien,O'Brien,human;starfleet;federation;jury_rigger;veteran,4,1,56,86,12,47,0,0,0,250,30,86,153,35,85,0,0,0,0,0,0
+4639468,177750608,money_crew,Private S. Money,Money,human;maco;marksman;veteran,3,2,83,0,0,0,0,0,0,0,0,0,354,40,117,0,0,0,0,0,0
+4639468,177750609,dax_ezri_sniper_crew,Sniper Ezri Dax,E. Dax,federation;starfleet;trill;counselor;investigator;marksman,3,3,100,0,0,0,245,134,307,0,0,0,372,80,188,411,64,148,0,0,0
+4639468,177750610,lefler_crew,Ensign Robin Lefler,Lefler,human;federation;starfleet;innovator;resourceful,3,3,80,244,32,111,0,0,0,362,40,93,0,0,0,0,0,0,0,0,0
+4639468,177958796,paris_lieutenant_crew,Nurse Paris,Paris,human;starfleet;federation;pilot;maverick;nurse;gambler,2,2,47,170,16,45,0,0,0,0,0,0,0,0,0,63,10,60,0,0,0
+4639468,180319436,reed_section31_crew,Section 31 Reed,Reed,starfleet;human;undercover_operative;marksman;desperate;section31,2,2,60,70,10,39,0,0,0,0,0,0,173,10,41,0,0,0,0,0,0
+4639468,181511040,phlox_samples_crew,Dr Phlox,Phlox,denobulan;civilian;doctor;romantic;exobiology,2,2,90,0,0,0,0,0,0,0,0,0,0,0,0,268,49,188,240,14,70
+4639468,181681305,jaxa_cadet_crew,Cadet Sito Jaxa,Sito,bajoran;starfleet;federation;pilot;crafty;prodigy;maverick,2,2,100,349,62,148,273,27,79,0,0,0,133,29,81,0,0,0,0,0,0
+4639468,181933422,kira_major_shorthair_crew,Major Kira,Kira,bajoran;veteran;resourceful,2,2,100,298,38,129,0,0,0,0,0,0,322,61,180,0,0,0,0,0,0
+4639468,181999493,rom_technician_crew,Technician Rom,Rom,ferengi;bajoran;civilian;saboteur;jury_rigger,2,2,60,0,0,0,105,13,45,230,5,11,0,0,0,0,0,0,0,0,0
+4639468,182808086,kira_cardassian_crew,Cardassian Kira,Kira,bajoran;cardassian;obsidian_order;saboteur;crafty;undercover_operative,4,1,30,84,22,26,46,12,27,0,0,0,122,18,75,0,0,0,0,0,0
+4639468,182808087,bashir_racquetball_crew,Racquetball Bashir,Bashir,human;federation;starfleet;athlete;prodigy;augment;doctor,3,3,71,153,23,70,0,0,0,0,0,0,0,0,0,258,68,262,226,18,63
+4639468,182808088,odo_constable_crew,Constable Odo,Odo,changeling;bajoran;constable;investigator;interrogator,3,2,90,234,79,168,0,0,0,0,0,0,390,22,71,0,0,0,0,0,0
+4639468,182808089,mara_tos_crew,Mara,Mara,klingon;communicator,3,3,96,175,80,259,398,42,103,0,0,0,0,0,0,0,0,0,402,67,210
+4639468,182808090,reed_sniper_crew,Sniper Reed,Reed,starfleet;human;tactician;marksman,3,3,43,153,19,60,0,0,0,0,0,0,175,18,45,0,0,0,0,0,0
+4639468,182809006,bashir_changeling_crew,Changeling Bashir,Changeling,changeling;dominion;starfleet;doctor;undercover_operative;saboteur;villain,4,3,100,0,0,0,0,0,0,207,98,220,485,182,431,575,102,241,0,0,0
+4639468,183236200,dathon_captain_crew,Captain Dathon,Dathon,tamarian;maverick;communicator;survivalist,3,3,56,95,22,69,275,29,73,0,0,0,195,10,20,0,0,0,0,0,0
+4639468,183237667,mayweather_boomer_crew,Boomer Mayweather,Mayweather,human;civilian;pilot;boomer,2,2,53,178,11,38,0,0,0,107,6,19,0,0,0,0,0,0,0,0,0
+4639468,183611126,torres_mindcontrolled_crew,Maquis Takeover Torres,Torres,starfleet;human;klingon;maquis;jury_rigger;saboteur,3,3,60,98,13,64,0,0,0,317,24,69,190,18,63,0,0,0,0,0,0
+4639468,184185452,vorik_crew,Ensign Vorik,Vorik,starfleet;federation;vulcan;telepath,3,3,66,0,0,0,0,0,0,254,46,140,0,0,0,0,0,0,0,0,0
+4639468,185936904,troi_lwaxana_tng_crew,Lwaxana Troi,Troi,federation;diplomat;betazoid;romantic;civilian;telepath,3,3,100,364,63,164,443,128,304,0,0,0,0,0,0,0,0,0,0,0,0
+4639468,191560855,obrien_prisoner_crew,Prisoner O'Brien,O'Brien,human;starfleet;federation;prisoner;desperate;survivalist;brutal;jury_rigger,4,1,60,0,0,0,84,11,21,299,42,98,155,51,122,0,0,0,0,0,0
+4639468,191689622,martia_crew,Martia,Martia,chameloid;shapeshifter;crafty;survivalist;criminal;scoundrel,4,3,70,0,0,0,395,51,115,0,0,0,263,48,98,0,0,0,0,0,0
+4639468,191956172,mccoy_rura_pethe_prisoner_crew,Prisoner 'Bones' McCoy,McCoy,federation;starfleet;doctor;human;desperate,3,3,100,0,0,0,293,114,257,0,0,0,0,0,0,466,93,286,0,0,0
+4639468,191956174,kes_longhair_crew,Temporal Shift Kes,Kes,ocampa;civilian;botanist;prodigy;telepath;nurse,3,3,46,0,0,0,0,0,0,0,0,0,0,0,0,192,22,91,138,10,31
+4639468,191956175,castillo_lieutenant_crew,Richard Castillo,Castillo,human;hero;pilot;starfleet;federation,3,3,46,198,21,56,0,0,0,0,0,0,0,0,0,0,0,0,154,17,58
+4639468,191957292,goranagar_first_crew,First Goran'Agar,Goran'Agar,jemhadar;dominion;desperate;survivalist;hunter;veteran,4,2,46,254,17,47,124,40,89,0,0,0,107,10,22,0,0,0,0,0,0
+4639468,191957802,tpol_mirror_crew,Mirror T'Pol,T'Pol,vulcan;terran_empire;starfleet;astrophysicist;duelist;saboteur;telepath;mirror_universe,5,1,60,112,47,147,199,69,139,0,0,0,0,0,0,0,0,0,318,75,224
+4639468,192057974,idrin_crew,Idrin,Idrin,hirogen;hunter;duelist;marksman;tactician;survivalist,3,3,56,110,8,18,0,0,0,0,0,0,312,20,63,0,0,0,0,0,0
+4639468,192209281,cretak_senator_crew,Senator Cretak,Cretak,romulan;diplomat,3,3,39,0,0,0,190,17,54,0,0,0,132,8,27,0,0,0,0,0,0
+4639468,193075061,chakotay_boxing_crew,Boxer Chakotay,Chakotay,human;starfleet;federation;hunter;duelist;athlete;costumed;maquis,3,3,66,176,9,34,215,8,16,0,0,0,339,26,46,0,0,0,0,0,0
+4639468,193098444,ogawa_cmo_crew,CMO Ogawa,Ogawa,human;federation;starfleet;doctor,3,3,51,102,14,34,98,12,27,0,0,0,0,0,0,207,18,67,0,0,0
+4639468,193099664,seska_seskakazonfurs_crew,Kazon Seska,Seska,bajoran;cardassian;kazon;obsidian_order;undercover_operative;villain,4,1,40,116,19,47,0,0,0,165,48,126,75,26,65,0,0,0,0,0,0
+4639468,193101539,seska_seskastarfleet_crew,Ensign Seska,Seska,bajoran;cardassian;starfleet;obsidian_order;undercover_operative,2,2,100,0,0,0,0,0,0,341,45,124,230,43,148,0,0,0,0,0,0
+4639468,193891744,dsc_saru_lieutenant_crew,Lieutenant Commander Saru,Saru,kelpien;federation;starfleet;exobiology;survivalist,2,2,53,139,5,18,0,0,0,0,0,0,0,0,0,0,0,0,185,21,75
+4639468,193948132,icheb_crew,Icheb,Icheb,civilian;brunali;borg;astrophysicist;prodigy;innovator,4,1,57,0,0,0,0,0,0,259,36,100,0,0,0,0,0,0,168,14,42
+4639468,193948134,rejal_crew,Gilora Rejal,Rejal,cardassian;high_command;astrophysicist;innovator;romantic,3,3,46,92,12,35,0,0,0,128,30,85,0,0,0,0,0,0,195,13,40
+4639468,193948135,kor_tos_crew,Commander Kor,Kor,klingon;duelist,3,3,66,287,39,159,127,17,44,0,0,0,227,12,37,0,0,0,0,0,0
+4639468,194151874,tucker_commander_crew,Commander Tucker,Trip,human;starfleet;jury_rigger;pilot;explorer,2,2,56,142,13,38,0,0,0,185,9,40,0,0,0,0,0,0,0,0,0
+4639468,194239329,janeway_assimilated_crew,Assimilated Janeway,Janeway,human;federation;starfleet;borg;undercover_operative;resourceful,5,1,66,281,89,159,0,0,0,0,0,0,146,35,100,0,0,0,404,35,137
+4639468,194239330,garak_tailor_crew,Tailor Garak,Garak,cardassian;undercover_operative;tailor;scoundrel;interrogator;civilian,3,3,57,0,0,0,195,14,55,96,6,14,259,14,47,0,0,0,0,0,0
+4639468,194239333,keevan_crew,Keevan,Keevan,vorta;dominion;clone;crafty;brutal,3,3,50,216,20,67,163,16,41,0,0,0,0,0,0,0,0,0,0,0,0
+4639468,194239334,daren_lieutenant_crew,Lt Commander Nella Daren,Daren,federation;starfleet;human;astrophysicist;musician,3,3,66,218,20,62,0,0,0,0,0,0,0,0,0,0,0,0,294,18,57
+4639468,194239335,kim_hockey_crew,Hockey Kim,Kim,starfleet;federation;human;athlete;costumed;musician,3,3,49,91,12,47,0,0,0,199,15,56,151,11,28,0,0,0,0,0,0
+4639468,194359824,seven_drone_crew,Drone Seven of Nine,Seven,human;borg;brutal,4,4,83,0,0,0,0,0,0,543,99,259,221,73,159,0,0,0,363,107,244
+4639468,194359826,chekov_stiv_crew,Commander Chekov,Chekov,federation;starfleet;human;undercover_operative;resourceful,3,3,60,0,0,0,269,14,35,0,0,0,188,13,36,0,0,0,196,7,13
+4639468,194359830,viceroy_crew,The Viceroy,Viceroy,romulan;reman;telepath;brutal;villain,3,3,33,127,8,22,106,9,23,0,0,0,165,17,52,0,0,0,0,0,0
+4639468,195122158,kes_nurse_crew,Nurse Kes,Kes,ocampa;civilian;nurse;prodigy,2,2,56,0,0,0,152,6,21,0,0,0,0,0,0,187,11,50,0,0,0
+4639468,195157558,tmir_crew,T'Mir,T'Mir,vulcan;telepath;survivalist;resourceful;civilian,4,1,53,208,30,80,144,22,64,0,0,0,0,0,0,0,0,0,0,0,0
+4639468,195496816,remataklan_crew,Third Remata'Klan,Remata'Klan,jemhadar;dominion;duelist;tactician,3,3,36,137,10,24,0,0,0,0,0,0,189,12,31,0,0,0,0,0,0
+4639468,195515408,reyga_crew,Dr. Reyga,Reyga,ferengi;astrophysicist;innovator;maverick,3,3,46,0,0,0,164,11,34,0,0,0,0,0,0,0,0,0,234,17,52
+4639468,196215578,wesley_acting_ensign_crew,Acting Ensign Crusher,Wesley,human;federation;starfleet;prodigy,2,2,46,62,3,9,0,0,0,115,15,47,0,0,0,0,0,0,132,8,29
+4639468,196228515,janeway_rifle_crew,Rifle Janeway,Janeway,human;federation;starfleet;resourceful;gambler,3,2,90,348,36,93,0,0,0,0,0,0,249,37,100,0,0,0,107,36,117
+4639468,196228516,koloth_crew,Koloth,Koloth,klingon;diplomat;tactician;duelist,3,3,56,179,22,65,248,33,100,0,0,0,120,18,65,0,0,0,0,0,0
+4639468,196228518,tuvok_rifle_crew,Security Chief Tuvok,Tuvok,vulcan;federation;starfleet;telepath;tactician;investigator,3,2,83,185,54,164,0,0,0,0,0,0,298,56,144,0,0,0,103,36,132
+4639468,196231232,zek_grand_nagus_crew,Grand Nagus Zek,Zek,ferengi;cultural_figure;scoundrel;gambler;rich;merchant;lord,5,1,67,274,36,124,411,92,163,0,0,0,132,32,86,0,0,0,0,0,0
+4639468,196433257,maddox_commander_crew,Commander Maddox,Maddox,federation;starfleet;human;cyberneticist,3,3,60,0,0,0,110,11,26,188,16,41,0,0,0,0,0,0,286,16,63
+4639468,197051946,laforge_lieutenant_crew,Chief Engineer La Forge,La Forge,human;starfleet;federation;innovator;cyberneticist;romantic,3,3,40,92,8,24,0,0,0,196,20,53,0,0,0,0,0,0,133,9,32
+4639468,198080344,mayweather_ensign_crew,Ensign Mayweather,Mayweather,human;starfleet;pilot,1,1,47,100,16,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+4639468,198090402,wildman_future_crew,Lt Naomi Wildman,Naomi,human;ktarian;starfleet;federation;resourceful,2,2,40,0,0,0,105,9,24,141,10,43,0,0,0,0,0,0,0,0,0
+4639468,198222607,barak_commander_crew,Commander Barak,Barak,klingon;brutal;warrior,4,1,40,168,30,89,0,0,0,0,0,0,108,22,64,0,0,0,0,0,0
+4639468,198681390,marcus_wok_crew,Dr. Carol Marcus,Marcus,federation;exobiology;human;civilian;innovator,3,3,46,176,11,30,0,0,0,0,0,0,0,0,0,0,0,0,210,19,60
+4639468,200170689,janeway_kathryn_crew,Kathryn Janeway,Janeway,human;federation;starfleet;resourceful;gambler,2,2,47,194,10,24,65,8,24,0,0,0,0,0,0,0,0,0,125,5,18
+4639468,201154684,dsc_saru_scanner_crew,First Officer Saru,Saru,kelpien;federation;starfleet;exobiology;survivalist,4,4,27,157,14,50,0,0,0,0,0,0,0,0,0,0,0,0,212,15,35
+4639468,202163595,janeway_coffee_crew,Captain Janeway,Janeway,human;federation;starfleet;resourceful;gambler,4,1,50,217,50,120,127,24,64,0,0,0,0,0,0,0,0,0,134,19,49
+4639468,202277102,weyoun_four_crew,Weyoun Clone 4,Weyoun,vorta;dominion;diplomat;clone;communicator,4,4,56,313,32,80,298,36,84,0,0,0,156,16,37,0,0,0,0,0,0
+4639468,202277104,culluh_crew,First Maje Culluh,Culluh,kazon;scoundrel,3,3,76,343,51,139,0,0,0,0,0,0,249,22,80,0,0,0,0,0,0
+4639468,202277105,barclay_duelist_crew,Duelist Barclay,Barclay,human;starfleet;federation;innovator;duelist,3,3,50,0,0,0,0,0,0,227,18,41,190,14,31,0,0,0,108,8,20
+4639468,203085918,dsc_tkuvma_mekleth_crew,T'Kuvma,T'Kuvma,klingon;brutal;hero;cultural_figure;spiritual,5,2,63,449,82,216,0,0,0,0,0,0,330,57,124,0,0,0,0,0,0
+4639468,204169527,scott_lieutenant_commander_crew,Lt Commander Scott,Scotty,human;starfleet;federation;jury_rigger,2,2,36,0,0,0,0,0,0,146,6,20,0,0,0,0,0,0,0,0,0
+4639468,204201559,ardra_crew,Ardra,Ardra,costumed;crafty;villain;cultural_figure;thief,4,1,40,0,0,0,112,30,59,70,32,72,179,18,44,0,0,0,0,0,0
+4639468,204982573,ro_ensign_crew,Ensign Ro,Ro,starfleet;bajoran;resourceful,2,2,46,168,11,34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+4639468,205774920,dsc_stamets_callbackup_crew,Reinforcements Stamets,Stamets,human;starfleet;federation;exomycologist;prodigy,4,1,73,0,0,0,0,0,0,0,0,0,221,34,110,0,0,0,337,33,105
+4639468,205774922,marla_mcgivers_crew,Marla McGivers,Marla,human;artist;tactician;communicator;federation;starfleet;romantic,4,1,23,0,0,0,120,16,38,89,12,26,0,0,0,0,0,0,0,0,0
+4639468,206475646,mendon_ensign_crew,Ensign Mendon,Mendon,benzite;prodigy;starfleet;resourceful,3,3,96,0,0,0,0,0,0,386,26,68,0,0,0,0,0,0,458,64,193
+4639468,206475647,brunt_nagus_crew,Acting Nagus Brunt,Brunt,ferengi;diplomat;crafty;cultural_figure,3,2,46,78,8,22,182,12,33,0,0,0,101,7,21,0,0,0,0,0,0
+4639468,206476445,david_marcus_crew,Dr. David Marcus,David,gambler;innovator;jury_rigger;human;civilian,4,1,26,0,0,0,0,0,0,88,14,32,0,0,0,0,0,0,129,34,45
+4639468,206476866,forra_gegen_crew,Forra Gegen,Gegen,exoarchaeology;exobiology;voth;resourceful;maverick,4,4,66,0,0,0,0,0,0,342,43,115,218,34,85,0,0,0,438,40,92
+4639468,208864078,orion_slaver_crew,Orion Slaver,Orion Slaver,orion;brutal;duelist;merchant,4,1,53,67,38,85,154,28,73,0,0,0,211,42,134,0,0,0,0,0,0
+4639468,208864079,dsc_tyler_lt_crew,Lt. Ash Tyler,Tyler,human;federation;starfleet;survivalist;tactician;marksman;pilot,4,3,60,273,31,60,0,0,0,0,0,0,384,41,99,0,0,0,0,0,0
+4639468,208956550,sybok_crew,Sybok,Sybok,vulcan;inspiring;spiritual;explorer;counselor;telepath,4,2,36,0,0,0,185,22,54,0,0,0,0,0,0,55,11,22,118,11,27
+4639468,209333997,crusher_dixonhill_crew,Doc Crusher,Crusher,human;starfleet;federation;doctor;caregiver;costumed,4,1,46,0,0,0,72,20,47,0,0,0,0,0,0,151,56,142,119,11,22
+4639468,209697869,crusher_black_commando_uniform_crew,Commando Crusher,Crusher,human;starfleet;federation;doctor;cyberneticist;undercover_operative,3,3,46,0,0,0,0,0,0,0,0,0,158,24,55,226,14,52,79,17,54
+4639468,209698776,rom_niners_crew,Niners Rom,Rom,ferengi;bajoran;desperate;resourceful;jury_rigger;athlete;saboteur;hero;costumed,4,2,50,0,0,0,0,0,0,259,29,70,166,24,58,0,0,0,0,0,0
+4639468,209700151,duras_sisters_crew,The Duras Sisters,Duras Sisters,klingon;scoundrel,4,2,90,214,59,163,264,107,220,0,0,0,414,153,393,0,0,0,0,0,0
+4639468,210006678,kang_tos_crew,Commander Kang,Kang,klingon;duelist,3,3,70,154,45,161,265,40,91,0,0,0,283,39,94,0,0,0,0,0,0
+4639468,210432551,brahms_hologram_crew,Holodeck 3 Dr. Brahms,Brahms,federation;starfleet;civilian;hologram;human;cyberneticist;warp_theorist,3,3,81,0,0,0,0,0,0,287,29,82,0,0,0,0,0,0,361,31,98
+4639468,210986719,morn_crew,Morn,Morn,lurian;courier;duelist;civilian;gambler;smuggler,3,3,54,0,0,0,240,16,61,0,0,0,197,14,45,0,0,0,0,0,0
+4639468,212023539,dax_jadzia_purple_crew,Festive Jadzia Dax,J. Dax,federation;starfleet;exobiology;astrophysicist;trill;gambler;pilot;romantic,2,2,99,0,0,0,274,18,50,0,0,0,0,0,0,0,0,0,384,33,128
+4639468,212283503,dsc_sarek_young_crew,Sarek,Sarek,vulcan;diplomat;cultural_figure;communicator;federation;telepath,4,1,30,86,15,47,140,16,40,0,0,0,0,0,0,0,0,0,43,8,29
+4639468,212306571,rand_yeoman_crew,Yeoman Rand,Rand,federation;starfleet;human,1,1,43,90,8,35,51,6,24,0,0,0,0,0,0,0,0,0,0,0,0
+4639468,213114999,tomalak_commander_crew,Commander Tomalak,Tomalak,romulan;veteran;villain;tactician,4,1,50,184,38,98,0,0,0,0,0,0,122,15,51,0,0,0,0,0,0
+4639468,214296871,scott_commander_crew,Commander Scott,Scotty,human;starfleet;federation;innovator;resourceful,3,3,30,124,12,31,0,0,0,124,14,33,0,0,0,0,0,0,0,0,0
+4639468,214675518,winn_vedek_crew,Vedek Winn Adami,Winn,bajoran;vedek;cultural_figure;spiritual,3,3,70,221,28,68,324,43,116,0,0,0,0,0,0,0,0,0,0,0,0
+4639468,215812986,ruk_crew,Ruk,Ruk,android;duelist;cyberneticist;hunter,4,1,43,0,0,0,0,0,0,142,22,50,232,28,71,0,0,0,50,8,27
+4639468,215813301,obrien_mirror_crew,Mirror 'Smiley' O'Brien,O'Brien,human;resourceful;jury_rigger;mirror_universe,3,3,46,161,7,17,0,0,0,227,10,22,85,7,28,0,0,0,0,0,0
+4639468,216360992,boothby_groundskeeper_crew,Groundskeeper Boothby,Boothby,federation;civilian;human;botanist;communicator;cultural_figure,3,3,56,206,12,33,105,19,54,0,0,0,0,0,0,226,22,75,0,0,0
+4639468,217191819,tuvok_ensign_crew,Ensign Tuvok,Tuvok,vulcan;federation;starfleet;telepath,1,1,56,0,0,0,94,23,55,0,0,0,0,0,0,0,0,0,111,9,50
+4639468,218036596,riker_anbo_crew,Anbo-jyutsu Riker,Riker,human;federation;starfleet;duelist;pilot;maverick;romantic;gambler,4,1,40,121,15,45,0,0,0,0,0,0,164,20,52,0,0,0,0,0,0
+4639468,218338387,obrien_klingon_crew,Klingon O'Brien,O'Brien,starfleet;federation;klingon;human;jury_rigger;undercover_operative;duelist;veteran,4,3,43,0,0,0,243,21,59,217,14,30,143,8,20,0,0,0,0,0,0
+4639468,218592763,emh_command_crew,Command Hologram,Doctor,hologram;federation;starfleet;hero;musician;tactician,4,1,63,161,47,112,0,0,0,0,0,0,90,30,95,216,35,133,0,0,0
+4639468,218625640,lily_sloane_crew,Lily Sloane,Lily,human;civilian;jury_rigger;desperate;communicator;crafty;resourceful,4,1,43,0,0,0,103,43,93,170,24,70,69,36,115,0,0,0,0,0,0
+4639468,218626200,gowron_kdf_crew,KDF Gowron,Gowron,klingon;duelist;diplomat,4,1,56,94,31,89,207,29,85,0,0,0,106,31,98,0,0,0,0,0,0
+4639468,219100836,uhura_mirror_crew,Mirror Uhura,Uhura,brutal;terran_empire;starfleet;human;musician;communicator;mirror_universe,4,2,43,0,0,0,172,24,62,0,0,0,113,45,101,0,0,0,0,0,0
+4639468,219100837,khan_young_crew,Young Khan,Khan,human;augment;romantic;cultural_figure;villain;brutal;tactician,4,2,53,120,12,24,265,17,41,211,17,43,0,0,0,0,0,0,0,0,0
+4639468,219100839,worf_defiant_commander_crew,Defiant Commander Worf,Worf,klingon;federation;starfleet;duelist;tactician,4,1,56,101,49,109,0,0,0,0,0,0,188,29,77,0,0,0,0,0,0
+4639468,220087929,kirk_green_wrap_crew,Command Wrap Kirk,Kirk,human;federation;starfleet;inspiring;romantic;duelist,3,3,36,140,24,57,63,8,31,0,0,0,92,13,34,0,0,0,0,0,0
+4639468,222141231,reed_rura_penthe_crew,Rura Penthe Reed,Reed,starfleet;human;desperate;criminal;undercover_operative,4,1,50,128,43,93,0,0,0,0,0,0,172,34,100,0,0,0,0,0,0
+4639468,225023137,kim_buster_crew,Buster Kincaid Kim,Kim,starfleet;federation;human;hero;costumed,4,3,46,0,0,0,0,0,0,183,21,51,290,24,54,0,0,0,111,13,42
+4639468,225023138,worf_duchamps_crew,Duchamps,Duchamps,klingon;hologram;gambler;villain;crafty;duelist,4,2,47,95,11,51,213,33,85,0,0,0,201,17,41,0,0,0,0,0,0
+4639468,225749109,tpol_subcommander_crew,Subcommander T'Pol,T'Pol,vulcan;high_command;astrophysicist;telepath,3,2,60,147,30,95,0,0,0,0,0,0,93,5,13,0,0,0,263,12,37
+4639468,228244229,spock_stiv_crew,Recovering Spock,Spock,federation;starfleet;civilian;exobiology;astrophysicist;human;musician;vulcan;telepath,2,2,43,55,5,23,73,9,29,0,0,0,0,0,0,0,0,0,161,9,40
+4639468,229095923,troi_casualblue_crew,Deanna Troi,Troi,federation;starfleet;human;betazoid;empath;counselor,3,3,96,134,63,157,313,77,154,0,0,0,0,0,0,399,95,249,0,0,0
+4639468,229098656,chapel_commander_crew,Commander Chapel,Chapel,federation;starfleet;human;doctor;veteran,4,1,28,0,0,0,40,16,37,0,0,0,0,0,0,88,14,50,117,20,64
+4639468,229525151,chakotay_starfleet_crew,Commander Chakotay,Chakotay,human;starfleet;federation;hunter;tactician;survivalist;maquis,2,2,70,189,22,55,97,21,48,0,0,0,172,23,63,0,0,0,0,0,0
+4639468,229525160,sulu_fencing_crew,Fencing Sulu,Sulu,human;federation;starfleet;pilot;resourceful;duelist,4,1,63,177,28,98,0,0,0,0,0,0,231,95,222,0,0,0,111,16,53
+4639468,229525170,scott_stiv_crew,Professor Scott,Scotty,human;starfleet;federation;undercover_operative;prodigy,4,1,40,53,6,6,0,0,0,167,22,60,0,0,0,0,0,0,132,14,30
+4639468,229525172,shakaar_resistance_crew,Resistance Shakaar,Shakaar,bajoran;civilian;veteran;saboteur;tactician,4,1,18,116,17,41,0,0,0,0,0,0,67,24,31,0,0,0,0,0,0
+4639468,231359254,sato_mirror_crew,Mirror Empress Sato,Sato,human;starfleet;terran_empire;empress;mirror_universe,4,4,53,133,11,28,381,20,70,0,0,0,282,26,57,0,0,0,0,0,0
+4639468,231359255,dax_jadzia_mirror_crew,Mirror Jadzia Dax,J. Dax,trill;terran_empire;casual;desperate;romantic;mirror_universe,4,1,40,0,0,0,0,0,0,102,15,41,190,18,40,0,0,0,82,12,33
+4639468,231389764,picard_mirror_crew,Mirror Jean-Luc Picard,Picard,human;terran_empire;starfleet;brutal;crafty;maverick;veteran;resourceful;duelist;mirror_universe,5,3,30,234,34,140,0,0,0,0,0,0,195,22,66,0,0,0,112,8,32
+4639468,237947907,worf_merry_crew,Will Scarlett,Worf,klingon;tactician;duelist;costumed;hero,5,1,30,0,0,0,129,21,53,0,0,0,171,33,86,0,0,0,0,0,0
+4639468,239718638,arik_jacket_crew,Arik Soong,Arik,human;thief;geneticist;maverick;civilian,4,2,47,83,16,41,0,0,0,0,0,0,0,0,0,126,18,52,221,24,62
+4639468,239869372,donik_crew,Donik,Donik,hirogen;innovator,3,2,60,0,0,0,155,13,32,228,34,91,0,0,0,0,0,0,0,0,0
+4639468,242492012,laforge_mirror_crew,Mirror Geordi La Forge,La Forge,human;starfleet;terran_empire;mirror_universe;saboteur;smuggler;innovator,4,3,50,0,0,0,0,0,0,237,41,114,119,21,46,0,0,0,204,39,108
+4639468,243537583,janeway_mirror_crew,Mirror Janeway,Janeway,human;brutal;starfleet;resourceful;hunter;saboteur;veteran;smuggler;mirror_universe;terran_empire,4,1,40,102,33,95,53,7,15,0,0,0,166,26,63,0,0,0,0,0,0
+4639468,243549260,spock_pilot_crew,Talos IV Spock,Spock,federation;starfleet;exobiology;astrophysicist;human;vulcan;telepath;musician,3,3,63,221,17,62,0,0,0,0,0,0,299,33,73,0,0,0,125,19,64
+4639468,243549264,wesley_full_ensign_crew,Ensign Crusher,Wesley,human;federation;starfleet;prodigy;warp_theorist,3,1,46,67,5,17,0,0,0,69,8,18,0,0,0,0,0,0,159,14,45
+4639468,243555209,automatedunit3947_crew,Automated Unit 3947,APU 3947,automated_unit;desperate;quantum_mechanics,4,1,50,0,0,0,0,0,0,233,43,113,66,31,105,0,0,0,157,22,68
+4639468,246161255,saavik_lieutenant_crew,Lieutenant Saavik,Saavik,vulcan;starfleet;federation;resourceful;telepath,3,3,36,134,10,37,75,13,38,0,0,0,0,0,0,0,0,0,169,10,22
+4639468,247431032,wesley_sweater_crew,Wesley Crusher,Wesley,human;federation;civilian;prodigy,1,1,46,0,0,0,0,0,0,72,3,9,0,0,0,0,0,0,101,7,38
+4639468,247531658,dsc_voq_torchbearer_crew,Torchbearer Voq,Voq,klingon;cultural_figure;torchbearer;desperate;inspiring,4,4,46,213,28,84,323,21,59,0,0,0,159,17,58,0,0,0,0,0,0
+4639468,247621392,phlox_scrubs_crew,Surgeon Phlox,Phlox,denobulan;civilian;doctor;romantic;exobiology,3,1,20,56,9,19,0,0,0,0,0,0,0,0,0,59,8,36,57,7,13
+4639468,247993313,fesek_crew,Fesek,Fesek,malon;romantic;inspiring;resourceful,4,1,30,0,0,0,85,19,60,130,19,53,0,0,0,0,0,0,0,0,0
+4639468,248384896,harriman_captain_crew,Captain John Harriman,Harriman,federation;starfleet;human;communicator,4,1,37,109,18,44,177,26,57,0,0,0,0,0,0,0,0,0,0,0,0
+4639468,248543697,kruge_commander_crew,Commander Kruge,Kruge,klingon;lord;marksman;brutal;villain,3,3,66,153,36,87,0,0,0,0,0,0,304,43,114,0,0,0,0,0,0
+4639468,249303225,q_mariachi_crew,Mariachi Q,Q,crafty;costumed;scoundrel;musician,5,1,16,0,0,0,146,26,62,0,0,0,96,20,42,0,0,0,0,0,0
+4639468,250057762,dsc_burnham_prisoner_crew,Prisoner Michael Burnham,Burnham,federation;starfleet;prisoner;xenoanthropology;duelist;human,2,2,47,0,0,0,63,8,24,0,0,0,133,7,16,0,0,0,172,13,64
+4639468,250389119,kim_ensign_crew,Ensign Kim,Kim,starfleet;federation;human;musician,1,1,86,0,0,0,0,0,0,214,24,88,0,0,0,0,0,0,0,0,0
+4639468,250957245,dsc_burnham_graduation_crew,Graduation Michael Burnham,Burnham,federation;civilian;astrophysicist;xenoanthropology;human,4,3,20,0,0,0,0,0,0,99,17,47,0,0,0,0,0,0,138,16,36
+4639468,251010176,silik_crew,Silik,Silik,suliban;shapeshifter;temporal_agent;saboteur,4,1,50,241,31,97,0,0,0,0,0,0,139,24,70,0,0,0,0,0,0
+4639468,252978436,quark_risa_crew,Tourist Quark,Quark,ferengi;scoundrel;desperate;romantic;gambler;communicator;civilian,4,1,43,81,9,19,195,32,90,0,0,0,0,0,0,153,30,66,0,0,0
+4639468,253123377,bashir_wwii_crew,RAF Julian Bashir,Bashir,human;pilot;hero;costumed;augment;doctor,4,1,36,0,0,0,0,0,0,0,0,0,128,18,48,162,18,43,0,0,0
+4639468,253127083,picard_dixonhill_crew,Detective Dixon Hill,Picard,federation;starfleet;human;costumed;undercover_operative;investigator;romantic,4,2,18,72,13,35,114,16,36,0,0,0,38,11,21,0,0,0,0,0,0
+4639468,254254862,odo_tuxedo_crew,Jazz Musician Odo,Odo,changeling;bajoran;constable;costumed;romantic;musician,5,1,40,0,0,0,227,24,55,0,0,0,149,40,125,0,0,0,0,0,0
+4639468,254255040,jarok_crew,Alidar Jarok,Jarok,romulan;veteran;desperate;tactician;high_command,4,1,20,110,16,36,68,11,22,0,0,0,34,7,19,0,0,0,0,0,0
+4639468,255418974,yar_glavin_crew,Duelist Yar,Yar,human;starfleet;duelist;federation;tactician;desperate;survivalist,4,1,30,56,11,22,82,14,40,0,0,0,116,36,86,0,0,0,0,0,0
+4639468,255997066,mayweather_rianna_crew,Rianna Mayweather,Rianna,human;civilian;resourceful;boomer;communicator;nurse;jury_rigger,4,1,36,0,0,0,82,9,30,147,23,53,0,0,0,127,16,42,0,0,0
+4639468,255997070,riker_angel_one_crew,Angel I Riker,Riker,human;federation;starfleet;pilot;maverick;romantic;gambler,4,1,18,97,18,46,77,12,26,0,0,0,0,0,0,0,0,0,0,0,0
+4639468,255997072,troi_commander_crew,Bridge Officer Troi,Troi,federation;starfleet;human;betazoid;empath;counselor;caregiver,4,1,40,95,15,45,73,9,26,0,0,0,0,0,0,169,34,97,0,0,0
+4639468,255997073,tucker_mirror_crew,Mirror Tucker,Trip,human;starfleet;terran_empire;jury_rigger;brutal;explorer;mirror_universe,4,1,37,0,0,0,0,0,0,164,15,33,98,21,47,0,0,0,0,0,0
+4639468,258593330,horta_crew,Mother Horta,Horta,caregiver;primal;silicon_lifeform;saboteur;desperate,4,1,40,0,0,0,115,28,61,0,0,0,160,37,92,0,0,0,0,0,0
+4639468,258626131,picard_galen_crew,Galen,Picard,human;costumed;brutal;undercover_operative;smuggler;musician,4,1,20,0,0,0,51,12,27,0,0,0,67,11,22,0,0,0,91,15,56
+4639468,259024661,suder_crew,Lon Suder,Suder,maquis;federation;starfleet;betazoid;brutal;botanist;saboteur;telepath,4,2,30,0,0,0,0,0,0,92,16,36,131,22,58,0,0,0,70,16,57
+4639468,259868016,tucker_rescuer_crew,Rescuer Tucker,Trip,human;starfleet;jury_rigger;tactician;explorer,3,3,60,130,13,36,0,0,0,260,17,52,223,8,18,0,0,0,0,0,0
+4639468,259868141,worf_cowboy_crew,Sheriff Worf,Worf,klingon;starfleet;federation;costumed;duelist;constable,4,1,36,154,17,47,58,6,20,0,0,0,109,16,38,0,0,0,0,0,0
+4639468,262253546,guinan_bartender_crew,Bartender Guinan,Guinan,communicator;civilian;counselor;marksman;empath;bartender;elaurian,5,1,26,0,0,0,170,64,128,0,0,0,60,8,18,111,38,45,0,0,0
+4639468,262458138,dsc_tyler_celebration_crew,Celebratory Ash Tyler,Tyler,human;federation;starfleet;tactician;marksman;pilot;romantic,4,2,31,111,12,28,145,21,53,0,0,0,74,8,20,0,0,0,0,0,0
+4639468,262458139,tarah_lieutenant_crew,Lieutenant Tarah,Tarah,andorian;imperial_guard;saboteur;brutal;marksman,4,1,16,0,0,0,66,12,31,0,0,0,89,18,42,0,0,0,0,0,0
+4639468,264682064,lursa_duras_crew,Lursa Duras,Lursa,klingon;scoundrel;villain,3,1,1,46,9,19,0,0,0,0,0,0,17,7,13,0,0,0,0,0,0
+4639468,264856627,tash_crew,Tash,Tash,civilian;innovator;desperate;maverick,4,1,26,0,0,0,49,30,62,94,15,33,0,0,0,0,0,0,107,16,36
+4639468,268095706,shras_ambassador_crew,Ambassador Shras,Shras,andorian;communicator;federation;diplomat;civilian;ambassador,4,2,8,57,11,22,82,15,33,0,0,0,29,6,12,0,0,0,0,0,0
+4639468,280422529,sisko_noah_crew,Dr. Hippocrates Noah,Hippocrates,hologram;villain;crafty;communicator;prodigy;resourceful,4,1,17,0,0,0,33,6,12,0,0,0,0,0,0,63,13,35,87,31,69
+4639468,280422530,pulaski_victorian_crew,Victorian Pulaski,Pulaski,human;federation;starfleet;doctor;costumed;crafty,4,3,25,0,0,0,158,16,42,0,0,0,0,0,0,108,14,38,0,0,0
+4639468,281220303,neelix_away_crew,Away Team Neelix,Neelix,talaxian;mylean;resourceful;survivalist;chef;civilian;communicator;geologist,2,2,16,0,0,0,47,6,17,74,6,14,0,0,0,0,0,0,35,3,11
+4639468,282644448,paris_hockey_crew,Hockey Paris,Paris,human;starfleet;federation;pilot;maverick;athlete;gambler;costumed,3,2,50,165,26,77,64,11,52,0,0,0,116,15,40,0,0,0,0,0,0
+4639468,284593392,garland_crew,Nurse Faith Garland,Garland,human;nurse;romantic;communicator,4,2,27,0,0,0,107,16,37,0,0,0,0,0,0,119,29,79,49,11,21
+4639468,285813880,tpol_captain_crew,Captain T'Pol,T'Pol,vulcan;starfleet;astrophysicist;tactician;telepath,4,1,30,127,24,80,41,7,21,0,0,0,0,0,0,0,0,0,100,11,22
+4639468,285817714,uhura_wrathofkhan_crew,Commander Uhura,Uhura,federation;starfleet;human;musician;communicator,4,1,30,85,20,48,120,24,64,0,0,0,0,0,0,0,0,0,0,0,0
+4639468,297588128,riker_augment_crew,Augment Riker,Riker,human;augment;gambler;desperate;maverick;jury_rigger;survivalist,4,1,8,27,7,21,0,0,0,73,14,30,49,21,40,0,0,0,0,0,0
+4639468,297588130,yar_alternate_crew,Warship Yar,Yar,human;starfleet;duelist;federation;tactician;desperate;survivalist,4,1,30,47,18,46,0,0,0,0,0,0,119,22,52,0,0,0,0,0,0
+4639468,297833063,q_florist_crew,Florist Q,Q,crafty;scoundrel;costumed;romantic,3,2,8,0,0,0,67,10,24,0,0,0,0,0,0,0,0,0,46,8,16
+4639468,299420997,tpol_redsuit_crew,Science Officer T'Pol,T'Pol,vulcan;starfleet;astrophysicist;telepath,2,1,1,0,0,0,26,4,9,0,0,0,0,0,0,0,0,0,29,5,11
+4639468,299420998,valeris_lieutenant_crew,Lieutenant Valeris,Valeris,vulcan;saboteur;starfleet;federation;resourceful;telepath,4,1,1,14,6,12,0,0,0,0,0,0,50,28,52,0,0,0,38,11,12
+4639468,299420999,tpol_wedding_crew,Vulcan Wedding T'Pol,T'Pol,vulcan;high_command;astrophysicist;telepath,4,1,1,21,6,12,50,14,29,0,0,0,0,0,0,0,0,0,41,11,22
+4639468,299423262,tpol_redsuit_crew,Science Officer T'Pol,T'Pol,vulcan;starfleet;astrophysicist;telepath,2,1,1,0,0,0,26,4,9,0,0,0,0,0,0,0,0,0,29,5,11
+4639468,299710248,tpol_wedding_crew,Vulcan Wedding T'Pol,T'Pol,vulcan;high_command;astrophysicist;telepath,4,1,1,21,6,12,50,14,29,0,0,0,0,0,0,0,0,0,41,11,22
+4639468,301337240,pulaski_doctor_crew,CMO Pulaski,Pulaski,human;starfleet;federation;doctor,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,42,9,19,31,7,13
